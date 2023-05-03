@@ -12,14 +12,15 @@
   <Overview>Cloudflare Zero Trust Tunnel using the official docker from Cloudflared&#xD;
 &#xD;
 https://github.com/Scootter23/unraid-templates/tree/main#cloudflare-tunnel</Overview>
-  <Category>Security</Category>
+  <Category>Security:</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/scootter23/app-logos/main/cloudflare/cf-zerotrust.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
-  <PostArgs>tunnel --no-autoupdate run --token putyourtokenhere</PostArgs>
+  <PostArgs>tunnel --no-autoupdate run --token tokenhere</PostArgs>
   <CPUset/>
+  <DateInstalled>1683148887</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-</Container
+</Container>
