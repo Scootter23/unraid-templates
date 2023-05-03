@@ -18,7 +18,7 @@ Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP we
 
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/
 
-## Create a Cloudflare Tunnel with Zero Trust Dashboard
+## Cloudflare Zero Trust Dashboard
 1. **Run** the Archivebox Docker and **Console** to it.
 ```su - archivebox```
 ```cd /data```
