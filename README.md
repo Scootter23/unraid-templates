@@ -1,4 +1,4 @@
-# Unraid Templates
+## Unraid Templates
 - [Cloudflare-Tunnel](#cloudflare-tunnel)
   * [Create a Tunnel](#create-a-tunnel)
   * [Create the Unraid Container](#create-the-unraid-container)
@@ -31,39 +31,6 @@ https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/
 https://github.com/cloudflare/cloudflared
 https://docs.ibracorp.io/cloudflare-tunnel/
 
-![Cloudflare-Tunnel](https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/img/cloudflare-zero-trust.png)
-
-Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP web servers, SSH servers, remote desktops, and other protocols safely to Cloudflare. This way, your origins can serve traffic through Cloudflare without being vulnerable to attacks that bypass Cloudflare.
-
-**Application Name:** Cloudflare-Tunnel
-
-**Application Site:** https://github.com/Scootter23/unraid-templates/tree/main/templates
-
-**Docker Hub:** https://hub.docker.com/r/cloudflare/cloudflared
-
-**Github:** https://github.com/cloudflare/cloudflared
-![Cloudflare-Tunnel](https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/img/cloudflare-zero-trust.png)
-
-Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP web servers, SSH servers, remote desktops, and other protocols safely to Cloudflare. This way, your origins can serve traffic through Cloudflare without being vulnerable to attacks that bypass Cloudflare.
-
-**Application Name:** Cloudflare-Tunnel
-
-**Application Site:** https://github.com/Scootter23/unraid-templates/tree/main/templates
-
-**Docker Hub:** https://hub.docker.com/r/cloudflare/cloudflared
-
-**Github:** https://github.com/cloudflare/cloudflared
-![Cloudflare-Tunnel](https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/img/cloudflare-zero-trust.png)
-
-Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP web servers, SSH servers, remote desktops, and other protocols safely to Cloudflare. This way, your origins can serve traffic through Cloudflare without being vulnerable to attacks that bypass Cloudflare.
-
-**Application Name:** Cloudflare-Tunnel
-
-**Application Site:** https://github.com/Scootter23/unraid-templates/tree/main/templates
-
-**Docker Hub:** https://hub.docker.com/r/cloudflare/cloudflared
-
-**Github:** https://github.com/cloudflare/cloudflared
 **[`^back to top^`](#unraid-templates)**
 
 ----
