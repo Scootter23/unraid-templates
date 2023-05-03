@@ -1,6 +1,6 @@
 # Unraid Templates
 - [Cloudflare-Tunnel](#cloudflare-tunnel)
-  * [First installation](#first-installation)
+  * [Create a Tunnel](#create-a-tunnel)
   * [Configuration](#configuration)
 ----
 # Cloudflare-Tunnel
@@ -18,7 +18,7 @@ Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP we
 
 https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/
 
-## First installation 
+## Create a Tunnel 
 1. **Run** the Archivebox Docker and **Console** to it.
 ```su - archivebox```
 ```cd /data```
