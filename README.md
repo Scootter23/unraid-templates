@@ -1,6 +1,6 @@
 # Unraid Templates
 - [Cloudflare-Tunnel](#cloudflare-tunnel)
-  * [Create a Tunnel](#create-a-tunnel)
+  * [Create a Tunnel](#create-a-cloudflare)
   * [Configuration](#configuration)
 ----
 # Cloudflare-Tunnel
