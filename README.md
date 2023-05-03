@@ -1,7 +1,7 @@
 # Unraid Templates
 - [Cloudflare-Tunnel](#cloudflare-tunnel)
   * [Create a Tunnel](#create-a-tunnel)
-  * [Configuration](#configuration)
+  * [Add an Unraid Container](#add-an-unraid-container)
 ----
 # Cloudflare-Tunnel
 ![Cloudflare-Tunnel](https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/img/cloudflare-zero-trust.png)
@@ -18,13 +18,10 @@ Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP we
 
 ## Create a Tunnel
 1. Log in to the Zero Trust dashboard at https://one.dash.cloudflare.com/
-```su - archivebox```
-```cd /data```
-```archivebox init```
-```archivebox manage createsuperuser```
 2. **Edit** Archivebox Docker Click at **Advanced View** put ```server 0.0.0.0:8000``` in **Post Arguments**.
-## Configuration
-To edit configuration open cf folder and Edit ArchiveBox.conf (https://github.com/pirate/ArchiveBox/wiki/Configuration)
+## Add an Unraid Container
+1. 
+2.
 
 **[`^back to top^`](#unraid-templates)**
 
