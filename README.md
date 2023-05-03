@@ -27,6 +27,9 @@ Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP we
 
 ## Resources
 https://www.boomam.com/docs/cloudflare/cloudflare_how-to_cloudflare-converting-to-managed-tunnel/
+https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/
+https://github.com/cloudflare/cloudflared
+https://docs.ibracorp.io/cloudflare-tunnel/
 
 **[`^back to top^`](#unraid-templates)**
 
