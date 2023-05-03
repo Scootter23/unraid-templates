@@ -2,6 +2,7 @@
 - [Cloudflare-Tunnel](#cloudflare-tunnel)
   * [Create a Tunnel](#create-a-tunnel)
   * [Create the Unraid Container](#create-the-unraid-container)
+  * [Resoruces](#resources)
 ----
 # Cloudflare-Tunnel
 ![Cloudflare-Tunnel](https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/img/cloudflare-zero-trust.png)
@@ -23,6 +24,9 @@ Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP we
 1. Login to your Unraid GUI, go to Docker and click Add Container.
 2. Use the Cloudflare-Tunnel xml file located here https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/cloudflare-tunnel.xml
 3. add more detailed instructions
+
+## Resources
+https://www.boomam.com/docs/cloudflare/cloudflare_how-to_cloudflare-converting-to-managed-tunnel/
 
 **[`^back to top^`](#unraid-templates)**
 
