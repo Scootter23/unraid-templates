@@ -1,6 +1,6 @@
 # Unraid Templates
 - [Cloudflare-Tunnel](#cloudflare-tunnel)
-  * [Create a Tunnel](#Create a Cloudflare Tunnel with Zero Trust Dashboard)
+  * [Create a Tunnel](#Create-a-Cloudflare-Tunnel-with-Zero-Trust-Dashboard)
   * [Configuration](#configuration)
 ----
 # Cloudflare-Tunnel
