@@ -1,6 +1,6 @@
 # Unraid Templates
 - [Cloudflare-Tunnel](#cloudflare-tunnel)
-  * [Create a Tunnel](#Create-a-Cloudflare-Tunnel-with-Zero-Trust-Dashboard)
+  * [Create a Tunnel](#create-a-tunnel)
   * [Configuration](#configuration)
 ----
 # Cloudflare-Tunnel
@@ -16,10 +16,8 @@ Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP we
 
 **Github:** https://github.com/cloudflare/cloudflared
 
-https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/
-
-## Cloudflare Zero Trust Dashboard
-1. **Run** the Archivebox Docker and **Console** to it.
+## Create a Tunnel
+1. Log in to the Zero Trust dashboard at https://one.dash.cloudflare.com/
 ```su - archivebox```
 ```cd /data```
 ```archivebox init```
