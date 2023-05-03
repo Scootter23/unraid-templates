@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Cloudflare-Tunnel</Name>
+  <Repository>cloudflare/cloudflared:latest</Repository>
+  <Registry>https://hub.docker.com/r/cloudflare/cloudflared</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/cloudflare/cloudflared</Project>
+  <Overview>Cloudflare Zero Trust Tunnel using the official docker from Cloudflared&#xD;
+&#xD;
+https://github.com/Scootter23/unraid-templates/tree/main#cloudflare-tunnel</Overview>
+  <Category>Security</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/scootter23/app-logos/main/cloudflare/cf-zerotrust.png</Icon>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <PostArgs>tunnel --no-autoupdate run --token putyourtokenhere</PostArgs>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+</Container
