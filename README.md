@@ -1,10 +1,10 @@
 # Unraid Templates
-- [ArchiveBox](#archivebox)
+- [Cloudflare-Tunnel](#archivebox)
   * [First installation](#first-installation)
   * [Configuration](#configuration)
 ----
 # ArchiveBox
-![ArchiveBox](https://raw.githubusercontent.com/A75G/docker-templates/master/templates/icons/archivebox.png)
+![Cloudflare-Tunnel](https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/img/cloudflare-zerotrust.png)
 
 ArchiveBox is a powerful self-hosted internet archiving solution written in Python 3. You feed it URLs of pages you want to archive, and it saves them to disk in a varitety of formats depending on the configuration and the content it detects. 
 
