@@ -23,7 +23,7 @@ Cloudflare Tunnel provides you with a secure way to connect your resources to Cl
 ```archivebox manage createsuperuser```
 2. **Edit** Archivebox Docker Click at **Advanced View** put ```server 0.0.0.0:8000``` in **Post Arguments**.
 ## Configuration
-To edit configuration open Archivebox folder and Edit ArchiveBox.conf (https://github.com/pirate/ArchiveBox/wiki/Configuration)
+To edit configuration open cf folder and Edit ArchiveBox.conf (https://github.com/pirate/ArchiveBox/wiki/Configuration)
 
 **[`^back to top^`](#unraid-templates)**
 
