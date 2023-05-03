@@ -18,10 +18,11 @@ Cloudflare Tunnel is a Cloudflare Zero Trust connection that can connect HTTP we
 
 ## Create a Tunnel
 1. Log in to the Zero Trust dashboard at https://one.dash.cloudflare.com/ and create a tunnel like in this guide https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/tunnel-guide/remote/
-2. **Edit** Archivebox Docker Click at **Advanced View** put ```server 0.0.0.0:8000``` in **Post Arguments**.
+2. add more detailed instructions
 ## Create the Unraid Container
-1. 
-2.
+1. Login to your Unraid GUI, go to Docker and click Add Container.
+2. Use the Cloudflare-Tunnel xml file located here https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/cloudflare-tunnel.xml
+3. add more detailed instructions
 
 **[`^back to top^`](#unraid-templates)**
 
