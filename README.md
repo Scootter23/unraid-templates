@@ -46,6 +46,7 @@ does stuff and stuff
 1. do this
 2. and this
 
+**[🔼 Back to top](#unraid-templates)**
+
 ----
 
-**[🔼 Back to top](#unraid-templates)**
