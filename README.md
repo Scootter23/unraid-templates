@@ -45,4 +45,7 @@ does stuff and stuff
 ## Configure Speedtest
 1. do this
 2. and this
+
+**[`^back to top^`](#unraid-templates)**
+
 ----
