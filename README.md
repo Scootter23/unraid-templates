@@ -33,7 +33,7 @@ https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/
 https://github.com/cloudflare/cloudflared
 https://docs.ibracorp.io/cloudflare-tunnel/
 
-**[`^back to top^`](#unraid-templates)**
+**[🔼 Back to top](#unraid-templates)**
 
 ----
 
@@ -46,6 +46,6 @@ does stuff and stuff
 1. do this
 2. and this
 
-**[🔼 Back to top](#unraid-templates)**
-
 ----
+
+**[🔼 Back to top](#unraid-templates)**
