@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Prometheus-Speedtest-Exporter</Name>
+  <Name>prometheus-speedtest</Name>
   <Repository>billimek/prometheus-speedtest-exporter:latest</Repository>
   <Registry>https://hub.docker.com/r/billimek/prometheus-speedtest-exporter</Registry>
   <Network>bridge</Network>
