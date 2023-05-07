@@ -46,8 +46,6 @@ does stuff and stuff
 1. do this
 2. and this
 
-**[`^back to top^`](#unraid-templates)**
+**[🔼 Back to top](#unraid-templates)**
 
 ----
-<br><hr>
-**[🔼 Back to top](#Unraid Templates)**
