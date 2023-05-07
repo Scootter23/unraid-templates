@@ -49,3 +49,5 @@ does stuff and stuff
 **[`^back to top^`](#unraid-templates)**
 
 ----
+<br><hr>
+[🔼 Back to top](#Unraid Templates)
