@@ -42,7 +42,7 @@ https://docs.ibracorp.io/cloudflare-tunnel/
 
 does stuff and stuff
 
-## Configure Speetest
+## Configure Speedtest
 1. do this
 2. and this
 ----
