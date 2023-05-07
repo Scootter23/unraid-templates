@@ -38,9 +38,11 @@ https://docs.ibracorp.io/cloudflare-tunnel/
 ----
 
 # Prometheus-Speedtest-Exporter
-![Prometheus-Speedtest-Exporter]
+![Prometheus-Speedtest-Exporter](https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/img/prometheus.png)
 
 does stuff and stuff
 
-## Configure
+## Configure Speetest
+1. do this
+2. and this
 ----
