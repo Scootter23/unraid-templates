@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>postgres-exporter</Name>
+  <Repository>quay.io/prometheuscommunity/postgres-exporter</Repository>
+  <Registry>https://hub.docker.com/r/prometheuscommunity/postgres-exporter</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/prometheus-community/postgres_exporter/</Project>
+  <Overview>Prometheus exporter for PostgreSQL server metrics.</Overview>
+  <Category>Other:</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/cposgres-exporter.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/scootter23/unraid-templates/main/templates/img/postgres.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="DATA_SOURCE_NAME" Target="DATA_SOURCE_NAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">postgresql://dbusername:password@serverIP:5432/databasename?sslmode=disable</Config>
+  <Config Name="Host Port 1" Target="9187" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9187</Config>
+  <Config Name="PG_EXPORTER_AUTO_DISCOVER_DATABASES" Target="PG_EXPORTER_AUTO_DISCOVER_DATABASES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">True</Config>
+</Container>
