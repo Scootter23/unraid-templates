@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon></Icon>
+  <Icon>https://raw.githubusercontent.com/scootter23/unraid-templates/main/templates/img/scootter.png</Icon>
   <Profile>
-    It is me
+    Still learning Unraid while creating docker templates I can't find anywhere else.
   </Profile>
-  <DonateLink></DonateLink>
-  <DonateText></DonateText>
 </Maintainer>
