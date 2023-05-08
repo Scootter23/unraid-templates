@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>prometheus-speedtest</Name>
+  <Name>speedtest-exporter</Name>
   <Repository>billimek/prometheus-speedtest-exporter:latest</Repository>
   <Registry>https://hub.docker.com/r/billimek/prometheus-speedtest-exporter</Registry>
   <Network>bridge</Network>
@@ -12,7 +12,7 @@
   <Overview>This is a docker container which runs a prometheus exporter to collect speedtest data using the official Speedtest CLI and script_exporter. The billimek/prometheus-speedtest-exporter docker image is multi-arch supporting amd64, arm6, arm7, and arm64.</Overview>
   <Category>Productivity:</Category>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/prometheus-speedtest-exporter.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/speedtest-exporter.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/scootter23/unraid-templates/main/templates/img/prometheus.png</Icon>
   <ExtraParams/>
   <PostArgs/>
