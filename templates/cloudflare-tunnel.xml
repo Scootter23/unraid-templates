@@ -12,7 +12,6 @@
   <Overview>Cloudflare Zero Trust Tunnel using the official docker from Cloudflared</Overview>
   <Category>Security:</Category>
   <WebUI/>
-  <TemplateURL/>
   <TemplateURL>https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/cloudflare-tunnel.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/scootter23/unraid-templates/main/templates/img/cloudflare-zero-trust.png</Icon>
   <ExtraParams>--restart unless-stopped</ExtraParams>
