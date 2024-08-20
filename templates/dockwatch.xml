@@ -3,7 +3,8 @@
   <Name>dockwatch</Name>
   <Repository>ghcr.io/notifiarr/dockwatch:main</Repository>
   <Registry>https://github.com/Notifiarr/dockwatch/pkgs/container/dockwatch</Registry>
-  <Network>none</Network>
+  <Network>proxynet</Network>
+  <MyIP/>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://notifiarr.com/discord</Support>
@@ -11,12 +12,19 @@
   <Overview>Simple UI driven way to manage updates &amp;amp; notifications for containers.</Overview>
   <Category>Tools:Utilities Network:Web</Category>
   <WebUI>http://[IP]:[PORT:9999]</WebUI>
+  <TemplateURL/>
   <Icon>https://notifiarr.com/images/logo/dockwatch.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1724132921</DateInstalled>
   <DonateText>Donations</DonateText>
   <DonateLink>https://github.com/sponsors/Notifiarr</DonateLink>
-  <Config Name="App Config" Target="/config" Default="/mnt/disk1/appdata/dockwatch/config" Mode="rw" Description="Logs and settings will go here" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/dockwatch/config</Config>
+  <Requires/>
+  <Config Name="App Config" Target="/config" Default="/mnt/disk1/appdata/dockwatch/config" Mode="rw" Description="Logs and settings will go here" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/dockwatch/config</Config>
   <Config Name="Docker sock" Target="/var/run/docker.sock" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
-  <Config Name="Port" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9999</Config>
+  <Config Name="Port" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9988</Config>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1001</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="TZ" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">America/Chicago</Config>
 </Container>
