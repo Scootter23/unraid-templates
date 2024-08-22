@@ -1,0 +1,59 @@
+services:
+  mongodb:
+    image: l33tlamer/mongodb-without-avx:latest
+    volumes:
+      - mongo_data:/data/db
+
+  opensearch:
+    image: opensearchproject/opensearch:2.12.0
+    volumes:
+      - os_data:/usr/share/opensearch/data
+    environment:
+      - http.host=0.0.0.0
+      - transport.host=localhost
+      - network.host=0.0.0.0
+      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
+      - OPENSEARCH_INITIAL_ADMIN_PASSWORD=D7RHK8&Mv#zabP@N@B
+
+  graylog:
+    image: graylog/graylog:6.0
+    volumes:
+      - graylog_data:/usr/share/graylog/data
+    environment:
+      # CHANGE ME (must be at least 16 characters)!
+      - GRAYLOG_PASSWORD_SECRET=1BON9kq%#DP!S*iY
+      # Password: admin
+      - GRAYLOG_ROOT_PASSWORD_SHA2=8f694c8f33be39fa1d75b0a57955fe01f4ffed247c3932667ccab285686bc35e
+      - GRAYLOG_HTTP_BIND_ADDRESS= 0.0.0.0:9023
+      - GRAYLOG_HTTP_EXTERNAL_URI=http://192.168.1.223:9023/
+      # - GRAYLOG_HTTP_PUBLISH_URI=http://192.168.1.223:9023/
+      - GRAYLOG_WEB_ENDPOINT_URI=http://192.168.1.223:9023/api
+    entrypoint: /usr/bin/tini -- wait-for-it opensearch:9299 --  /docker-entrypoint.sh
+    links:
+      - mongodb:mongo
+      - opensearch
+    restart: always
+    depends_on:
+      - mongodb
+      - opensearch
+    ports:
+      # Graylog web interface and REST API
+      - 9023:9023
+      # Syslog TCP
+      - 1514:1514
+      # Syslog UDP
+      - 1514:1514/udp
+      # GELF TCP
+      - 12201:12201
+      # GELF UDP
+      - 12201:12201/udp
+      # Eentrypoint
+      - 9299:9299/tcp
+
+volumes:
+  mongo_data:
+    driver: local
+  os_data:
+    driver: local
+  graylog_data:
+    driver: local
