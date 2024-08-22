@@ -3,6 +3,8 @@ services:
     image: l33tlamer/mongodb-without-avx:latest
     volumes:
       - mongo_data:/data/db
+    networks:
+      - proxynet
 
   opensearch:
     image: opensearchproject/opensearch:2.12.0
@@ -14,6 +16,8 @@ services:
       - network.host=0.0.0.0
       - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
       - OPENSEARCH_INITIAL_ADMIN_PASSWORD=D7RHK8&Mv#zabP@N@B
+    networks:
+      - proxynet
 
   graylog:
     image: graylog/graylog:6.0
@@ -49,6 +53,8 @@ services:
       - 12201:12201/udp
       # Eentrypoint
       - 9299:9299/tcp
+    networks:
+      - proxynet
 
 volumes:
   mongo_data:
@@ -57,3 +63,7 @@ volumes:
     driver: local
   graylog_data:
     driver: local
+
+networks:
+  proxynet:
+    external: true    
