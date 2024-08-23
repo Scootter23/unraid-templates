@@ -17,8 +17,8 @@ services:
     hostname: "datanode"
     environment:
       GRAYLOG_DATANODE_NODE_ID_FILE: "/var/lib/graylog-datanode/node-id"
-      GRAYLOG_DATANODE_PASSWORD_SECRET: "0bEQAG8CWqZd2uAGIQs4glDJ8GSs6u7z8HL6KJMkOaVPCRfSAMeIApXfipbWZg2k"
-      GRAYLOG_DATANODE_ROOT_PASSWORD_SHA2: "c3cc650ff4d1fe1ff6adc25f1ff199fb2b256bed6b16f9752234b88d44bca904"
+      GRAYLOG_DATANODE_PASSWORD_SECRET: ""
+      GRAYLOG_DATANODE_ROOT_PASSWORD_SHA2: ""
       GRAYLOG_DATANODE_MONGODB_URI: "mongodb://mongodb:27017/graylog"
     ulimits:
       memlock:
@@ -46,8 +46,8 @@ services:
     entrypoint: "/usr/bin/tini --  /docker-entrypoint.sh"
     environment:
       GRAYLOG_NODE_ID_FILE: "/usr/share/graylog/data/data/node-id"
-      GRAYLOG_PASSWORD_SECRET: "0bEQAG8CWqZd2uAGIQs4glDJ8GSs6u7z8HL6KJMkOaVPCRfSAMeIApXfipbWZg2k"
-      GRAYLOG_ROOT_PASSWORD_SHA2: "c3cc650ff4d1fe1ff6adc25f1ff199fb2b256bed6b16f9752234b88d44bca904"
+      GRAYLOG_PASSWORD_SECRET: ""
+      GRAYLOG_ROOT_PASSWORD_SHA2: ""
       GRAYLOG_HTTP_BIND_ADDRESS: "0.0.0.0:9023"
       GRAYLOG_HTTP_EXTERNAL_URI: "http://192.168.1.223:9023/"
       GRAYLOG_MONGODB_URI: "mongodb://mongodb:27017/graylog"
