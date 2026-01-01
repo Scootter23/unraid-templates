@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://raw.githubusercontent.com/scootter23/unraid-templates/main/templates/img/scootter.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Scootter23/unraid-templates/refs/heads/main/images/scootter.png</Icon>
   <Profile>
-    Still learning Unraid while creating docker templates I can't find anywhere else.
+    I couldn't find some Unraid Templates so I created them myself. Definitely not an expert but maybe these can help someone else.
   </Profile>
 </Maintainer>
