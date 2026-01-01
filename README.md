@@ -1,6 +1,9 @@
-# unRAID Docker templates XML for CA
-
-## **```Dockhand.xml```**
+# Unraid Templates
+- [Dockhand](#dockhand)
+- [New-App](#new-app)
+----
+# Dockhand
+![Dockhand](https://raw.githubusercontent.com/Scootter23/unraid-templates/main/images/dockhand.webp)
 
 Dockhand is a modern, efficient Docker management application providing real-time container management, Compose stack orchestration, and multi-environment support.
 
@@ -13,4 +16,18 @@ Dockhand is a modern, efficient Docker management application providing real-tim
 * File Browser: Browse, upload, and download files from containers
 * Authentication: SSO via OIDC, local users, and optional RBAC (Enterprise)
 
+
 https://github.com/Finsys/dockhand
+
+
+# Cloudflare-Tunnel
+![Cloudflare-Tunnel](https://raw.githubusercontent.com/Scootter23/unraid-templates/main/templates/img/cloudflare-zero-trust.png)
+
+
+
+
+
+**[🔼 Back to top](#unRAID-Docker-Templates)**
+
+----
+
