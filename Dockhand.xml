@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>dockhand</Name>
+  <Repository>fnsys/dockhand:latest</Repository>
+  <Registry>https://hub.docker.com/r/fnsys/dockhand/</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Finsys/dockhand/issues</Support>
+  <Project>https://dockhand.pro</Project>
+  <Overview>Dockhand is a modern, efficient Docker management application providing real-time container management, Compose stack orchestration, and multi-environment support. https://dockhand.pro/manual</Overview>
+  <Category>Tools: Other: Network:Management</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Finsys/dockhand/refs/heads/main/src/images/logo.webp</Icon>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <PostArgs/>
+  <Requires>https://dockhand.pro/manual/#introduction</Requires>
+  <Config Name="Port" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="Data Volume" Target="/app/data" Default="/mnt/user/appdata/dockhand" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/dockhand</Config>
+  <TailscaleStateDir/>
+</Container>
