@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>app-name</Name>
+  <Overview></Overview>
+  <Requires></Requires>  
+  <Repository>reponame/app:latest</Repository>
+  <Category></Category>
+  <Support></Support>
+  <Project></Project>
+  <ReadMe></ReadMe>
+  <Registry>https://hub.docker.com/docker-image</Registry>
+  <Icon>https://raw.githubusercontent.com/Scootter23/logo.webp</Icon>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <ExtraParams>--restart unless-stopped</ExtraParams>
+  <PostArgs></PostArgs>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Banner>https://banner.png</Banner>
+  <Changes></Changes>
+  <Screenshot>https://raw.githubusercontent.com/Scootter23/screenshot.png</Screenshot>
+  <TemplateURL>https://raw.githubusercontent.com/Scootter23/unraid-templates/template.xml</TemplateURL>
+  <Config Name="Port" Target="3000" Default="3000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="Data Volume" Target="/app/data" Default="/mnt/user/appdata/app-name" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/app-name</Config>
+</Container>
